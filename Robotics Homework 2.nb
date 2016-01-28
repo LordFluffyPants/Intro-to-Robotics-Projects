@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14405,        498]
-NotebookOptionsPosition[     12624,        430]
-NotebookOutlinePosition[     12971,        445]
-CellTagsIndexPosition[     12928,        442]
+NotebookDataLength[     29722,       1067]
+NotebookOptionsPosition[     25529,        916]
+NotebookOutlinePosition[     25876,        931]
+CellTagsIndexPosition[     25833,        928]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -424,8 +424,494 @@ Cell[BoxData[
    3.6629470836050787`*^9}}]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell["E", "Subchapter",
- CellChangeTimes->{3.662947094036669*^9}]
+ CellChangeTimes->{3.662947094036669*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "0"},
+     {"0", 
+      RowBox[{"1", "/", "2"}], 
+      RowBox[{
+       RowBox[{"-", 
+        SqrtBox["3"]}], "/", "2"}]},
+     {"\[Placeholder]", 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], 
+      RowBox[{"1", "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SqrtBox["3"], "/", "2"}], ",", " ", 
+    RowBox[{"1", "/", "2"}], ",", "0", ",", "0"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.662983484680063*^9, 3.662983508649613*^9}, {
+  3.662983559307663*^9, 3.6629835842188597`*^9}, {3.6629836180342903`*^9, 
+  3.6629836635308986`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["F", "Subchapter",
+ CellChangeTimes->{3.6629836727935543`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"1", "/", "2"}], "0", 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}]},
+     {"0", "1", "0"},
+     {
+      RowBox[{
+       RowBox[{"-", 
+        SqrtBox["3"]}], "/", "2"}], "0", 
+      RowBox[{"1", "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SqrtBox["3"], "/", "2"}], ",", " ", "0", ",", 
+    RowBox[{"1", "/", "2"}], ",", "0"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.6629836796078825`*^9, 3.662983819762768*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["G", "Subchapter",
+ CellChangeTimes->{3.6629838285700693`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"1", "/", "2"}], 
+      RowBox[{
+       RowBox[{"-", 
+        SqrtBox["3"]}], "/", "2"}], "0"},
+     {
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], 
+      RowBox[{"1", "/", "2"}], "0"},
+     {"0", "0", "1"}
+    }], "\[NoBreak]", ")"}], "Quaternion", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SqrtBox["3"], "/", "2"}], ",", " ", "0", ",", "0", ",", 
+    RowBox[{"1", "/", "2"}]}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.662983845029175*^9, 3.6629839180836926`*^9}, {
+  3.6629840179083333`*^9, 3.6629840318829412`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["H", "Subchapter",
+ CellChangeTimes->{3.6629840422344093`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "0"},
+     {"0", 
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "/", 
+       SqrtBox["2"]}]},
+     {"0", 
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}], 
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", 
+  RowBox[{"(", 
+   RowBox[{"0.92387953", ",", " ", "0.38268343", ",", "0", ",", "0"}], 
+   ")"}]}]], "Input",
+ CellChangeTimes->{
+  3.6629841466708345`*^9, {3.6629842323788257`*^9, 3.66298430924329*^9}, {
+   3.6629844327557077`*^9, 3.662984462132225*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["I", "Subchapter",
+ CellChangeTimes->{3.662984472411151*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}], "0", 
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}]},
+     {"0", "1", "0"},
+     {
+      RowBox[{
+       RowBox[{"-", "1"}], "/", 
+       SqrtBox["2"]}], "0", 
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{"0.923879543", ",", " ", "0", ",", "0.38268343", ",", "0"}], 
+   ")"}]}]], "Input",
+ CellChangeTimes->{{3.6629844869333467`*^9, 3.662984566316905*^9}, {
+  3.6629847947242193`*^9, 3.6629848431406803`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["J", "Subchapter",
+ CellChangeTimes->{3.6629848507080345`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "/", 
+       SqrtBox["2"]}], "0"},
+     {
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}], 
+      RowBox[{"1", "/", 
+       SqrtBox["2"]}], "0"},
+     {"0", "0", "1"}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{"0.923879543", ",", " ", "0", ",", "0", ",", "0.38268343"}], 
+   ")"}]}]], "Input",
+ CellChangeTimes->{{3.6629848592068396`*^9, 3.6629849543490396`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["K", "Subchapter",
+ CellChangeTimes->{3.6629849638922677`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "0"},
+     {"0", 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "/", "2"}]},
+     {"0", 
+      RowBox[{"1", "/", "2"}], 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{"0.96592583", ",", " ", "0.25881905", ",", "0", ",", "0"}], 
+   ")"}]}]], "Input",
+ CellChangeTimes->{
+  3.6629849782671485`*^9, {3.6629850172043877`*^9, 3.6629850294447865`*^9}, {
+   3.662985067589462*^9, 3.6629851414853697`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["L", "Subchapter",
+ CellChangeTimes->{3.662985149804437*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], "0", 
+      RowBox[{"1", "/", "2"}]},
+     {"0", "1", "0"},
+     {
+      RowBox[{
+       RowBox[{"-", "1"}], "/", "2"}], "0", 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{"0.96592583", ",", " ", "0", ",", " ", "0.25881905", ",", "0"}], 
+   ")"}]}]], "Input",
+ CellChangeTimes->{{3.6629851605920515`*^9, 3.662985258165331*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["M", "Subchapter",
+ CellChangeTimes->{3.6629852640766106`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "/", "2"}], "0"},
+     {
+      RowBox[{"1", "/", "2"}], 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], "0"},
+     {"0", "0", "1"}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{"0.96592583", ",", "0", ",", "0", ",", "0.25881905"}], 
+   ")"}]}]], "Input",
+ CellChangeTimes->{{3.662985366438615*^9, 3.662985443317794*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["N", "Subchapter",
+ CellChangeTimes->{3.6629854581171775`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "0"},
+     {"0", 
+      RowBox[{"1", "/", "2"}], 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}]},
+     {"0", 
+      RowBox[{
+       RowBox[{"-", 
+        SqrtBox["3"]}], "/", "2"}], 
+      RowBox[{"1", "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SqrtBox["3"], "/", "2"}], ",", " ", 
+    RowBox[{
+     RowBox[{"-", "1"}], "/", "2"}], ",", "0", ",", "0"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.662985790980522*^9, 3.6629858137754765`*^9}, {
+  3.662985854878373*^9, 3.662985903063064*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["O", "Subchapter",
+ CellChangeTimes->{{3.662986037126852*^9, 3.6629860399983873`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"1", "/", "2"}], "0", 
+      RowBox[{
+       RowBox[{"-", 
+        SqrtBox["3"]}], "/", "2"}]},
+     {"0", "1", "0"},
+     {
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], "0", 
+      RowBox[{"1", "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SqrtBox["3"], "/", "2"}], ",", " ", "0", ",", " ", 
+    RowBox[{
+     RowBox[{"-", "1"}], "/", "2"}], ",", "0"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.662986209930894*^9, 3.662986303215181*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["P", "Subchapter",
+ CellChangeTimes->{3.662986325374514*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"1", "/", "2"}], 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], "0"},
+     {
+      RowBox[{
+       RowBox[{"-", 
+        SqrtBox["3"]}], "/", "2"}], 
+      RowBox[{"1", "/", "2"}], "0"},
+     {"0", "0", "1"}
+    }], "\[NoBreak]", ")"}], "Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SqrtBox["3"], "/", "2"}], ",", "0", ",", "0", ",", 
+    RowBox[{
+     RowBox[{"-", "1"}], "/", "2"}]}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.662986338309298*^9, 3.66298643100029*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Q", "Subchapter",
+ CellChangeTimes->{3.6629864662792163`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"1", "0", "0"},
+     {"0", 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], 
+      RowBox[{"1", "/", "2"}]},
+     {"0", 
+      RowBox[{
+       RowBox[{"-", "1"}], "/", "2"}], 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", 
+  RowBox[{"(", 
+   RowBox[{"0.96592583", ",", " ", 
+    RowBox[{"-", "0.25881905"}], ",", "0", ",", "0"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.6629865085327425`*^9, 3.6629865676014366`*^9}, {
+  3.6629866020001388`*^9, 3.662986637456744*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["R", "Subchapter",
+ CellChangeTimes->{3.662986645952022*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], "0", 
+      RowBox[{
+       RowBox[{"-", "1"}], "/", "2"}]},
+     {"0", "1", "0"},
+     {
+      RowBox[{"1", "/", "2"}], "0", 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}]}
+    }], "\[NoBreak]", ")"}], "Quaternion", 
+  RowBox[{"(", 
+   RowBox[{"0.96592583", ",", "0", ",", 
+    RowBox[{"-", "0.25881905"}], ",", "0"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.662986659306165*^9, 3.6629867083841405`*^9}, {
+  3.6629868317122664`*^9, 3.66298687952903*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["S", "Subchapter",
+ CellChangeTimes->{3.662986891648197*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], 
+      RowBox[{"1", "/", "2"}], "0"},
+     {
+      RowBox[{
+       RowBox[{"-", "1"}], "/", "2"}], 
+      RowBox[{
+       SqrtBox["3"], "/", "2"}], "0"},
+     {"0", "0", "1"}
+    }], "\[NoBreak]", ")"}], "Quaternion", 
+  RowBox[{"(", 
+   RowBox[{"0.96592583", ",", "0", ",", "0", ",", 
+    RowBox[{"-", "0.25881905"}]}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.6629869384461203`*^9, 3.662987013681362*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 4", "Chapter",
+ CellChangeTimes->{{3.662988243019519*^9, 3.6629882454834538`*^9}}],
+
+Cell["\<\
+running the rotations.py code provided the rotation portion represented as a \
+quaternion is\
+\>", "Text",
+ CellChangeTimes->{{3.6629887217883387`*^9, 3.6629887505326166`*^9}, {
+   3.6629887956126804`*^9, 3.6629888041806073`*^9}, 3.6629889402850475`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Quaternion", " ", 
+  RowBox[{"(", 
+   RowBox[{"0.90574555", ",", " ", "0.23091474", ",", "0.27010897", ",", " ", 
+    RowBox[{"-", "0.23091474"}]}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.662988810306633*^9, 3.6629888995173936`*^9}}],
+
+Cell["The code that was run will be provided in a python file", "Text",
+ CellChangeTimes->{{3.662988906228963*^9, 3.662988925125059*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 5", "Chapter",
+ CellChangeTimes->{{3.662988934229035*^9, 3.662988936853471*^9}}],
+
+Cell["\<\
+running the rotations.py code provided the quaternion represented as a \
+rotation matrix is\
+\>", "Text",
+ CellChangeTimes->{{3.662988944653205*^9, 3.6629889826450095`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(", "\[NoBreak]", GridBox[{
+    {"0.15450889", 
+     RowBox[{"-", "0.47552285"}], "0.86602783"},
+    {"0.74075459", "0.63578246", "0.21693996"},
+    {
+     RowBox[{"-", "0.65376511"}], "0.60799543", "0.45048009"}
+   }], "\[NoBreak]", ")"}]], "Input",
+ CellChangeTimes->{{3.6629889929391875`*^9, 3.662989118349287*^9}}],
+
+Cell["the code that was run will also be provided in a python file", "Text",
+ CellChangeTimes->{{3.6629891252934475`*^9, 3.662989136997389*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 6", "Chapter",
+ CellChangeTimes->{{3.662989146717454*^9, 3.6629891501895046`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["A", "Subchapter",
+ CellChangeTimes->{3.662989327181452*^9}],
+
+Cell["The tansformations can be given by the following", "Text",
+ CellChangeTimes->{{3.66298933614944*^9, 3.662989346854227*^9}}],
+
+Cell["\<\
+pel T wst -> wst T tor -> tor T shp -> shp T shr -> shr T shy -> shy T el -> \
+el T wy -> wy T wr -> wr T hnd -> hnd T plm 
+
+A picture representation will be provided in the submission file \
+\>", "Text",
+ CellChangeTimes->{{3.662989435005993*^9, 3.662989463110077*^9}, {
+  3.662989516566233*^9, 3.662989600382946*^9}, {3.66298965231837*^9, 
+  3.6629900037592545`*^9}, {3.6629901654955273`*^9, 3.6629901869276075`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["B", "Subchapter",
+ CellChangeTimes->{3.662990198087439*^9}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.662989427922703*^9, 3.662989429622039*^9}}]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1920, 997},
@@ -458,7 +944,7 @@ Cell[4422, 147, 456, 13, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[4915, 165, 161, 3, 31, "Input"],
-Cell[5079, 170, 796, 20, 71, "Output"]
+Cell[5079, 170, 796, 20, 57, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[5912, 195, 248, 7, 31, "Input"],
@@ -476,7 +962,7 @@ Cell[8749, 294, 236, 6, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[9022, 305, 163, 3, 31, "Input"],
-Cell[9188, 310, 690, 19, 71, "Output"]
+Cell[9188, 310, 690, 19, 57, "Output"]
 }, Open  ]],
 Cell[9893, 332, 162, 3, 30, "Text"]
 }, Open  ]],
@@ -498,11 +984,93 @@ Cell[CellGroupData[{
 Cell[11897, 406, 65, 1, 62, "Subchapter"],
 Cell[11965, 409, 563, 14, 57, "Input"]
 }, Open  ]],
-Cell[12543, 426, 65, 1, 62, "Subchapter"]
+Cell[CellGroupData[{
+Cell[12565, 428, 65, 1, 62, "Subchapter"],
+Cell[12633, 431, 678, 21, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13348, 457, 67, 1, 62, "Subchapter"],
+Cell[13418, 460, 558, 19, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14013, 484, 67, 1, 62, "Subchapter"],
+Cell[14083, 487, 611, 20, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14731, 512, 67, 1, 62, "Subchapter"],
+Cell[14801, 515, 626, 21, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15464, 541, 65, 1, 62, "Subchapter"],
+Cell[15532, 544, 607, 20, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16176, 569, 67, 1, 62, "Subchapter"],
+Cell[16246, 572, 556, 19, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16839, 596, 67, 1, 62, "Subchapter"],
+Cell[16909, 599, 600, 19, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17546, 623, 65, 1, 62, "Subchapter"],
+Cell[17614, 626, 524, 17, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18175, 648, 67, 1, 62, "Subchapter"],
+Cell[18245, 651, 512, 17, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18794, 673, 67, 1, 62, "Subchapter"],
+Cell[18864, 676, 628, 21, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19529, 702, 91, 1, 62, "Subchapter"],
+Cell[19623, 705, 587, 20, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20247, 730, 65, 1, 62, "Subchapter"],
+Cell[20315, 733, 576, 20, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20928, 758, 67, 1, 62, "Subchapter"],
+Cell[20998, 761, 583, 18, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21618, 784, 65, 1, 62, "Subchapter"],
+Cell[21686, 787, 575, 18, 83, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22298, 810, 65, 1, 62, "Subchapter"],
+Cell[22366, 813, 525, 17, 83, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22940, 836, 97, 1, 64, "Chapter"],
+Cell[23040, 839, 264, 5, 30, "Text"],
+Cell[23307, 846, 259, 5, 31, "Input"],
+Cell[23569, 853, 137, 1, 30, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23743, 859, 95, 1, 64, "Chapter"],
+Cell[23841, 862, 183, 4, 30, "Text"],
+Cell[24027, 868, 342, 8, 57, "Input"],
+Cell[24372, 878, 144, 1, 30, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24553, 884, 97, 1, 64, "Chapter"],
+Cell[CellGroupData[{
+Cell[24675, 889, 65, 1, 62, "Subchapter"],
+Cell[24743, 892, 129, 1, 30, "Text"],
+Cell[24875, 895, 429, 8, 68, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25341, 908, 65, 1, 62, "Subchapter"],
+Cell[25409, 911, 92, 1, 31, "Input"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
 *)
 
 (* End of internal cache information *)
-
