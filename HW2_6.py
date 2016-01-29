@@ -1,7 +1,8 @@
 ''' HW2.6 data'''
 '''  by David Conner CPSC 495 Spring 2016 '''
 
-import numpy as np 
+import numpy as np
+from rotations import *
 
 # Homework Hw2.6
 
@@ -38,3 +39,29 @@ q_wr_hnd = np.array([0.797, 0.000, 0.000, -0.605])# [w, (x,y,z)] form
 t_hnd_plm = np.array([0.000, 0.000, -0.160])
 q_hnd_plm = np.array([0.000, 0.707, 0.707, 0.000])# [w, (x,y,z)] form
 
+Pel_To_Wst = Q2trans(t_pel_wst, q_pel_wst)
+Wst_To_Tor = Q2trans(t_wst_tor, q_wst_tor)
+Tor_To_Shp = Q2trans(t_tor_shp, q_tor_shp)
+Shp_To_Shr = Q2trans(t_shp_shr, q_shp_shr)
+Shr_To_Shy = Q2trans(t_shr_shy, q_shr_shy)
+Shy_To_El = Q2trans(t_shy_el, q_shy_el)
+El_To_Wy = Q2trans(t_el_wy, q_el_wy)
+Wy_To_Wr = Q2trans(t_wy_wr, q_wy_wr)
+Wr_To_Hnd = Q2trans(t_wr_hnd, q_wr_hnd)
+Hnd_To_Plm = Q2trans(t_hnd_plm, q_hnd_plm)
+
+Pel_To_Tor = np.dot(Pel_To_Wst, Wst_To_Tor)
+Pel_To_Shp = np.dot(Pel_To_Tor, Tor_To_Shp)
+Pel_To_Shr = np.dot(Pel_To_Shp, Shp_To_Shr)
+Pel_To_Shy = np.dot(Pel_To_Shr, Shr_To_Shy)
+Pel_To_El = np.dot(Pel_To_Shy, Shy_To_El)
+Pel_To_Wy = np.dot(Pel_To_El, El_To_Wy)
+Pel_To_Wr = np.dot(Pel_To_Wy, Wy_To_Wr)
+Pel_To_Hnd = np.dot(Pel_To_Wr, Wr_To_Hnd)
+Pel_To_Plm = np.dot(Pel_To_Hnd, Hnd_To_Plm)
+
+print "Pelvis and Palm Matrix",Pel_To_Plm
+Cyl = np.array([0.0, 0.0, 0.2, 1])
+Pel_To_Cyl = np.dot(Pel_To_Plm, Cyl)
+print"\n"
+print "Cyl with respect to Pelvis",Pel_To_Cyl
